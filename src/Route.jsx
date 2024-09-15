@@ -4,6 +4,7 @@ import Home from "./Component/Home";
 import MeetingRooms from "./Component/MeetingRooms";
 import AboutUs from "./Component/AboutUs";
 import ContactUs from "./Component/ContactUs";
+import Login from "./Component/Login";
 
 const Root = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const Root = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactUs />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
     ],
   },
